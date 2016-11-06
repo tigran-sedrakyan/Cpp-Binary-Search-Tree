@@ -12,10 +12,6 @@ template <class T>
 node<T>* BinSearchTree<T>::getRoot() {
     return m_root;
 }
-/*
-void BinSearchTree::set_root(node<T>* r) {
-    m_root = r;
-}*/
 
 template <class T>
 void BinSearchTree<T>::preOrderHelper(node<T>* root) {
